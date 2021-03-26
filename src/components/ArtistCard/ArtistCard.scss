@@ -1,0 +1,27 @@
+.buttonSection {
+  display: flex;
+  border-bottom: 1px solid #393C49;
+  width: 100%;
+
+  .buttons {
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-left: 2px solid transparent;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,41 @@
+.button {
+  background: #1F1D2B;
+  /* Base / Dark Line */
+
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px;
+  width: 101px;
+  margin-right: 8px;
+  outline: none;
+
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+  }
+}
+
+.section-button {
+  padding: 30px;
+
+  :first-child {
+    background: #252836;
+    /* Text/Light */
+
+    // border: 1px solid #ABBBC2;
+    // box-sizing: border-box;
+    border-radius: 8px;
+
+  }
+}

@@ -1,0 +1,89 @@
+.movie-info {
+  .movieInfo-back {
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    position: absolute;
+  }
+
+  .movie-info-front {
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    background-color: rgb(207 3 3 / 50%);
+    backdrop-filter: blur(10px);
+    margin-top: 120px;
+  }
+
+  .movie-poster {
+    margin-right: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .title {
+    color: #f8829a;
+  }
+
+  .tagline {
+    color: #f8829a;
+
+  }
+
+  .budget {
+    color: #f8829a;
+  }
+
+  .release {
+    color: #f8829a;
+
+  }
+
+  .runtime {
+    padding: 10px;
+    color: #f8829a;
+  }
+
+  .original-title {
+    color: #f8829a;
+    margin-bottom: 20px;
+  }
+
+  .home-page {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background-color: rgba(194, 0, 0, 0.789);
+
+    &:hover {
+      background-color: black;
+    }
+  }
+
+  .button-bt {
+
+    background-color: #000;
+    margin-right: 20px;
+    outline: none;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .loading {
+    color: chartreuse;
+  }
+
+  .overview {
+    color: #f8829a;
+    padding: 20px;
+
+  }
+}

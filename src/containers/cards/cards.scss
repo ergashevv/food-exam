@@ -1,0 +1,75 @@
+.card1 {
+  background: #1F1D2B;
+  border-radius: 16px;
+  width: 170px;
+  max-height: 250px;
+  padding: 20px;
+  margin: 0;
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 80px;
+
+  h3 {
+    margin: 0 auto;
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+    text-align: center;
+    width: 144px;
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+    padding: 8px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    /* Text/Light */
+
+    color: #ABBBC2;
+  }
+
+  .card-info {
+    margin-top: 114px;
+
+  }
+
+  img {
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    left: 0;
+  }
+}

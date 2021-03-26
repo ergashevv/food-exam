@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #252836;
+
+  // background-color: fade-out($color: #000000, $amount: 0);
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.movies-holder {
+
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu {
+  display: block;
+
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+}
+
+.headerrTop {
+  display: flex;
+}
+
+.cardsSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 348px;
+
+  overflow: scroll;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+
+.comp {
+  display: flex;
+}

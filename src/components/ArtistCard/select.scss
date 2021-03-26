@@ -1,0 +1,43 @@
+.section-form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  width: 90%;
+  margin: 0 auto;
+
+  .select {
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #1F1D2B;
+    outline: none;
+    margin-bottom: 70px;
+  }
+
+  .optionSelect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    background-color: #1F1D2B;
+    padding: 15px;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+  }
+}
